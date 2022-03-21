@@ -1,5 +1,6 @@
 const express = require('express');
 const router =  express.Router();
+// const app = express()
 // const masterAccountController = require("../MODELS/masterAccount.model");
 
 router.get("/:id",async (req,res)=>{
